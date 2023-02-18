@@ -1,0 +1,86 @@
+@font-face {
+    font-family: 'roboto_font';
+    src: url("/../diplomado_react_js_2023/static/fonts/roboto/Roboto-Black.ttf");
+}
+
+@font-face {
+    font-family: 'shopping';
+    src: url("../fonts/shopping_list/shoppinglist.TTF");
+}
+
+body{
+    font-family: 'roboto_font';
+}
+
+.card{
+    background-color: #F06543;
+    width: 80%;
+    height: 80vh;
+    margin: auto;
+    border-radius: 1%;
+    padding: 30px 20px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    }
+
+.container{
+    position: fixed;
+    width: 100%;
+    top: 50%;
+    left: 50%;
+    /* bring your own prefixes */
+    transform: translate(-50%, -50%);
+}
+
+.title{
+    display: flex;
+    justify-content: center;
+    color: #FDF7FA;
+}
+
+.section-container{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.imagen{
+    height: 50px;
+    width: 50px;
+}
+
+.li-width{
+    min-width: 200px;
+    font-family: 'shopping';
+    font-size: 60px;
+}
+
+.list-item{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    margin-top: 5px;
+}
+
+.div-container{
+    display: flex;
+    justify-content: center;
+}
+
+.custom-size{
+    font-size: 30px;
+}
+
+.subtitles{
+    font-size: 50px;
+}
+
+
+
+html{
+    background-color: #293241;
+    color: #6B2B06;
+}
+
+h1{
+    margin-bottom: 0px;
+}
